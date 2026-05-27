@@ -1,0 +1,14 @@
+[Unit]
+Description=socket.livo.ink
+After=network.target mysql.service
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/html/dev/socket.livo.ink
+ExecStart=/usr/bin/node /var/www/html/dev/socket.livo.ink/server.js
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/var/log/socket-livo.log
+StandardError=append:/var/log/socket-livo.err.log
+[Install]
+WantedBy=multi-user.target
