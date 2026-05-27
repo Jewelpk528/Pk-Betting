@@ -1,0 +1,40 @@
+title = "Pk-Betting gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Global allowlist for known false positives"
+paths = [
+  '''(?i)(^|/)assets/plugins/datatables/vfs_fonts\.js$''',
+  '''(?i)(^|/)assets/(fonts|website/fonts)/.*\.(woff2?|ttf|svg|eot)$''',
+  '''(?i)(^|/)\.env\.example$''',
+  '''(?i)(^|/)application/system/.*''',
+  '''(?i)(^|/)system/.*''',
+]
+regexes = [
+  '''(?i)getenv\(\s*[\x27"][^\x27"]+[\x27"]\s*\)''',
+  '''(?i)androappstech\.com''',
+  '''rzp_(live|test)_REDACTED''',
+  '''REDACTED''',
+]
+
+[[rules]]
+id = "fcm-server-key"
+description = "Firebase Cloud Messaging legacy server key"
+regex = '''AAAA[A-Za-z0-9_-]{7}:[A-Za-z0-9_-]{140,}'''
+
+[[rules]]
+id = "razorpay-key"
+description = "Razorpay live/test key"
+regex = '''rzp_(live|test)_[A-Za-z0-9]{14,}'''
+
+[[rules]]
+id = "razorpay-secret"
+description = "Razorpay key secret"
+regex = '''(?i)(razorpay[_-]?secret|api[_-]?secret|key[_-]?secret)\s*[:=>][\s\x27"]*[A-Za-z0-9]{24}[\s\x27"]*'''
+
+[[rules]]
+id = "xsolla-api-key"
+description = "Xsolla API key (40-char hex)"
+regex = '''(?i)(xsolla[_-]?api[_-]?key|xsolla[_-]?secret)\s*[:=>][\s\x27"]*[a-f0-9]{40}[\s\x27"]*'''

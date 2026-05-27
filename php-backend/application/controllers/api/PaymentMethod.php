@@ -1707,7 +1707,7 @@ class PaymentMethod extends REST_Controller
 // Form-encoded payload data
         $post_data = [
             'customer_mobile' => $user[0]->mobile,
-            'user_token' => 'bedfad31f39edc90bc5e60c7c2550749',
+            'user_token' => getenv("INTERNAL_USER_TOKEN") ?: "",
             'amount' => $amount,
             // 'order_id' => 'RWANDER'.$Order_ID,
             'order_id' => $Order_ID,

@@ -31,7 +31,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/get_table',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -60,7 +60,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                                     'method': 'POST',
                                     'url': BASE_URL+'/api/rummyDeal/start_game',
                                     'headers': {
-                                        'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                                        'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                                     },
                                     formData: {
@@ -121,7 +121,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/get_private_table',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -165,7 +165,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/join_table',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -207,7 +207,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/join_table_with_code',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -249,7 +249,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/start_game',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -308,7 +308,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/leave_table',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -351,7 +351,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/pack_game',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -392,7 +392,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/my_card',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -429,7 +429,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/my_card',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -472,7 +472,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/card_value',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -518,7 +518,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/drop_card',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -571,7 +571,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/get_card',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -609,7 +609,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/get_drop_card',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -648,7 +648,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/declare',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -688,7 +688,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/declare_back',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -728,7 +728,7 @@ module.exports = function (rummy_deal_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/rummyDeal/status',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {

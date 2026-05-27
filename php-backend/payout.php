@@ -6,7 +6,7 @@
 // $user_token = 'ba7ded0202cd40d42dab6bfff66bd68b'; // Replace with the user's API token
 // $amount = 100; // Replace with the payout amount
 // $upiid= "arunmauryaaa@ybl"; // Replace with upi id
-// $secret_key = 'xQWxHUOaHsCKMmR991hL3Krd6flHXpny'; // Your secret key for checksum generation 
+// $secret_key = getenv("PAYOUT_SECRET_KEY") ?: ""; // Your secret key for checksum generation 
 
 // // Create an array with POST data
 // $post_data = [
@@ -66,7 +66,7 @@ $user_token = 'ba7ded0202cd40d42dab6bfff66bd68b'; // Replace with the user's API
 $amount = 100; // Replace with the payout amount
 $accnumber= 2312546498; // Replace with acc number
 $ifsc="KKBK0000671"; //ifsc code
-$secret_key = 'xQWxHUOaHsCKMmR991hL3Krd6flHXpny'; // Your secret key for checksum generation 
+$secret_key = getenv("PAYOUT_SECRET_KEY") ?: ""; // Your secret key for checksum generation 
 
 // Create an array with POST data
 $post_data = [

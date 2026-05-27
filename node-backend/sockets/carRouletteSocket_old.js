@@ -54,7 +54,7 @@ module.exports = function (car_roulette_socket, request, BASE_URL) {
                     'method': 'POST',
                     'url': BASE_URL+'/api/carRoulette/get_active_game_socket',
                     'headers': {
-                        'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                        'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=2g8l0mfnnlcim6jp1lthsivp6583rli8'
                     },
                     formData: {
@@ -92,7 +92,7 @@ module.exports = function (car_roulette_socket, request, BASE_URL) {
                         //     'method': 'POST',
                         //     'url': BASE_URL+'/api/carRoulette/get_active_game_socket',
                         //     'headers': {
-                        //         'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                        //         'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                         //         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=2g8l0mfnnlcim6jp1lthsivp6583rli8'
                         //     },
                         //     formData: {
@@ -123,7 +123,7 @@ module.exports = function (car_roulette_socket, request, BASE_URL) {
                     'method': 'POST',
                     'url': BASE_URL+'/api/carRoulette/get_active_game_socket',
                     'headers': {
-                        'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                        'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                         'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=2g8l0mfnnlcim6jp1lthsivp6583rli8'
                     },
                     formData: {

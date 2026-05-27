@@ -9965,7 +9965,7 @@ class Cron extends CI_Controller
                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                 CURLOPT_CUSTOMREQUEST => 'POST',
                 CURLOPT_POSTFIELDS => http_build_query(array(
-                    'user_token' => 'bedfad31f39edc90bc5e60c7c2550749',
+                    'user_token' => getenv("INTERNAL_USER_TOKEN") ?: "",
                     'order_id' =>  $order_id
                 )), // Encode POST data
                 CURLOPT_HTTPHEADER => array(

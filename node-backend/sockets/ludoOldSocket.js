@@ -34,7 +34,7 @@ module.exports = function (ludo_old_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/ludoOld/chaal',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -71,7 +71,7 @@ module.exports = function (ludo_old_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/ludoOld/get_table',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {
@@ -128,7 +128,7 @@ module.exports = function (ludo_old_socket, request, timer, BASE_URL) {
                         'method': 'POST',
                         'url': BASE_URL+'/api/ludoOld/get_step',
                         'headers': {
-                            'token': 'c7d3965d49d4a59b0da80e90646aee77548458b3377ba3c0fb43d5ff91d54ea28833080e3de6ebd4fde36e2fb7175cddaf5d8d018ac1467c3d15db21c11b6909',
+                            'token': 'REDACTED-MOVED-TO-ENV-LEGACY',
                             'Cookie': 'ci_session=ql4u3d0569peintlo3clko0vftbg0ni2; ci_session=mmo9qqjgcpk00r04ll9dcqaohrir95pe'
                         },
                         formData: {

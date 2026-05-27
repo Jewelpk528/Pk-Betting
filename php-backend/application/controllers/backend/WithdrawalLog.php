@@ -47,7 +47,7 @@ class WithdrawalLog extends MY_Controller
             // $amount = $withdraw->coin; // Replace with the payout amount
             // $accnumber = $withdraw->acc_no; // Replace with acc number
             // $ifsc = $withdraw->ifsc_code; //ifsc code
-            // $secret_key = 'xQWxHUOaHsCKMmR991hL3Krd6flHXpny'; // Your secret key for checksum generation 
+            // $secret_key = 'REDACTED'; // Your secret key for checksum generation 
 
             // // Create an array with POST data
             // $post_data = [
