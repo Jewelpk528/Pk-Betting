@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP
+vendor/
+composer.phar
+
+# Project-specific
+uploads/
+data/
+application/logs/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Heavy non-code assets that shouldn't live in git
+php-backend/game.apk
+php-backend/assets/images/Lets_card/
+php-backend/assets/images/Dragon/
+php-backend/assets/images/poker/
+php-backend/assets/website_old/
